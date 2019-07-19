@@ -5,6 +5,7 @@ console.log(__filename);
 //   }, 0)
 //   console.log(code);
 // })
+console.log(process.argv);
 process.on('exit', code => {
   setTimeout(() => {
     console.log(111);
